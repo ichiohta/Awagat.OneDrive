@@ -1,0 +1,8 @@
+﻿<Window x:Class="Awagat.OneDrive.OAuth2.Views.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Name="Root" Height="700" Width="600">
+    <Grid SizeChanged="Grid_SizeChanged">
+        <WebBrowser x:Name="WebBrowser"  Navigated="WebBrowser_Navigated" />
+    </Grid>
+</Window>
